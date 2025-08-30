@@ -15,14 +15,7 @@ from smolagents.agents import ActionStep
 from smolagents.cli import load_model
 
 
-github_request = """
-I'm trying to find how hard I have to work to get a repo in github.com/trending.
-Can you navigate to the profile for the top author of the top trending repo, and give me their total number of commits over the last year?
-"""  # The agent is able to achieve this request only when powered by GPT-4o or Claude-3.5-sonnet.
 
-search_request = """
-Please navigate to https://en.wikipedia.org/wiki/Chicago and give me a sentence containing the word "1992" that mentions a construction accident.
-"""
 
 
 def parse_arguments():

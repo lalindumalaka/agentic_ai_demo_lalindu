@@ -1,5 +1,4 @@
 
-import logging
 import os
 import pathlib
 import tempfile
@@ -7,8 +6,8 @@ import uuid
 from io import BytesIO
 from typing import Any
 
-import PIL.Image
-import requests
+import PIL.Image # pyright: ignore[reportMissingImports]
+import requests # pyright: ignore[reportMissingModuleSource]
 
 from .utils import _is_package_available
 
